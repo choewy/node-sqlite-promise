@@ -1,7 +1,7 @@
 const sqlite3 = require('sqlite3');
 
 class Sqlite3Promise {
-    connect(filename) {
+    constructor(filename) {
         this.db = new sqlite3.Database(filename);
     };
 
@@ -30,6 +30,4 @@ class Sqlite3Promise {
         });
 };
 
-const Database = new Sqlite3Promise();
-
-module.exports = Database;
+module.exports = Sqlite3Promise;

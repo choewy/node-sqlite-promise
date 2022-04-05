@@ -13,10 +13,9 @@ npm install node-sqlite-promise
 ### Database.connect
 
 ```js
-const Database = require('node-sqlite-promise');
+const Sqlite3Promise = require('node-sqlite-promise');
 
-const db = Database();
-db.connect('app.db');
+const db = new Sqlite3Promise('app.db');
 ```
 
 - args : `filename: string`
