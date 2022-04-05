@@ -5,7 +5,7 @@ ES6 Promise-based interface to the sqlite3 module. The `node-sqlite-promise` mod
 ## Installation
 
 ```
-npm install node-sqlite-promise
+npm i @choewy/node-sqlite-promise
 ```
 
 ## Usage
