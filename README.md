@@ -1,11 +1,11 @@
-# sqlite3-promise
+# node-sqlite-promise
 
-ES6 Promise-based interface to the sqlite3 module. The `sqlite3-promise` module exports the `Database`.
+ES6 Promise-based interface to the sqlite3 module. The `node-sqlite-promise` module exports the `Database`.
 
 ## Installation
 
 ```
-npm install sqlite3-promise
+npm install node-sqlite-promise
 ```
 
 ## Usage
@@ -13,7 +13,7 @@ npm install sqlite3-promise
 ### Database.connect
 
 ```js
-const Database = require('sqlite3-promise');
+const Database = require('node-sqlite-promise');
 
 const db = Database();
 db.connect('app.db');

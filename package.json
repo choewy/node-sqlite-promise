@@ -1,7 +1,7 @@
 {
-  "name": "sqlite3-promise",
-  "version": "1.0.0",
-  "description": "Node.js sqlite3-promise",
+  "name": "@choewy/node-sqlite-promise",
+  "version": "1.0.1",
+  "description": "Node.js node-sqlite-promise",
   "author": "choewy",
   "license": "MIT",
   "main": "index.js",
@@ -10,14 +10,17 @@
     "sqlite3-async",
     "sqlite3-promise"
   ],
+  "files": [
+    "index.js"
+  ],
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/choewy/sqlite3-promise.git"
+    "url": "git+https://github.com/choewy/node-sqlite-promise.git"
   },
   "bugs": {
-    "url": "https://github.com/choewy/sqlite3-promise/issues"
+    "url": "https://github.com/choewy/node-sqlite-promise/issues"
   },
-  "homepage": "https://github.com/choewy/sqlite3-promise#readme",
+  "homepage": "https://github.com/choewy/node-sqlite-promise#readme",
   "dependencies": {
     "sqlite3": "^5.0.2"
   }
