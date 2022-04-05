@@ -13,6 +13,9 @@
   "files": [
     "index.js"
   ],
+  "scripts": {
+    "test": "node index.js"
+  },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/choewy/node-sqlite-promise.git"
